@@ -1,0 +1,170 @@
+      #header{
+            height: 70px;
+            width: 100%;
+            left: 0px;
+            top: 0px;
+            border-radius: 0px;
+            background-color: #FFD900;
+            text-align: center left;
+    }
+
+       #imglogo{
+            height: 42px;
+            width: 180px;
+            left: 70px;
+            top: 27px;
+            border-radius: 0px;
+            margin-top: 15px;
+            margin-left: 220x;
+            padding-left: 50px;
+            cursor: pointer;
+    }
+
+         #secmeio{
+            display:flex;
+         }
+
+          #textreviva{
+            background-color: #514988;
+            height: 470px;
+            width: 45%;
+            left: 10px;
+            top: 90px;
+            border-radius: 0px;
+            text-align: center;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-bottom: none;
+            padding-bottom: none;
+            padding-bottom:none;
+      }
+
+         #textreviva h1{
+            position:center;
+            width: 600px;
+            height: 100px;
+            font-family: 'Verdana';
+            font-style: normal;
+            font-weight: 500px;
+            font-size: 45px;
+            line-height: 120px;
+            color: #F3C61F;
+            margin:auto;
+            text-align: center;
+
+        }
+
+        #th3{
+            font-family: 'Verdana';
+            font-style: normal;
+            font-weight:8;
+            font-size: 20px;
+            line-height: 40x;
+            text-align: center;
+            padding-left: 100px;
+            font-style: none;
+            width: 470px;
+            
+        
+            }
+       
+       #hmaior{
+            margin-left: 120px;
+            font-style: bold;
+       }
+
+       #corre{
+            font-family: Verdana;
+            font-size: 19px;
+            font-weight: 700;
+            line-height: 33px;
+            letter-spacing: 0em;
+            color: #F3C61F;    
+            text-align: left;
+            padding-left: 65px;
+            margin: 5px;
+       }
+
+       #btcs{
+            background-color: #514988;
+            width: 450px;
+            left: 1004px;
+            color:white;
+            justify-content: center;
+            text-align: center;
+            height: 100px;
+            margin-left: 180px;
+            border-radius: 20px;
+            font-size: 30px;
+           font-weight: 700;
+           margin-top: 30px;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           border-width: none;
+           cursor: pointer;
+          
+          }
+
+        #sec2{
+            justify-content: left;
+            background-color: white;
+            height: 150px;
+            justify-items: left;
+            text-align: left;
+            padding-left: 60px;
+            margin-left: none;
+            padding: none;
+            display:flex;  
+            cursor: pointer; 
+                    }
+
+        #hhh{
+            text-align: center;
+            height: 25px;
+            font-size: 18px;
+        }
+
+          .ctdvid{
+               display:grid;  
+               padding: none;  
+               margin: none;
+               justify-content: justify;
+               margin: none;
+
+             
+          }
+
+          .ctdxp{
+          display: flex;
+          color: #514988;
+          font-family: Verdana;
+          font-size: 20px;
+          font-weight: 700;
+          justify-content: space-around;
+          margin-left: 5px;
+          justify-content: top;
+          margin-top: none;
+          margin-bottom: none;
+          height: 0px;
+         
+            }
+
+            #vidaleq{
+               margin-left: 30px;
+               margin-top: 60px;
+            }
+
+            #maiorh3{
+               font-family: Verdana, Geneva, Tahoma, sans-serif;
+               font-size: 18px;
+               font-weight: 700;
+               line-height: 95px;
+               letter-spacing: 0em;
+               text-align: center;
+               color: #E33881;
+               padding: none;
+               height: 20px;
+               margin: none;
+               letter-spacing: 2px;
+            }
+
+           

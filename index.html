@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPPX</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="javascript" href="config.js">
+</head>
+
+<body>
+    <header id="header">
+        <img src="logo ccpx.svg" width="100px"id='imglogo'>
+    </header>
+    
+    <section id="secmeio21">
+       <div id="secmeio">
+            <div id="textreviva">
+                <h1>REVIVA O ÉPICO</h1>
+                <h3 id="hhh">DE 14 A 17 DE DEZEMBRO</h3>
+                <h3 id="th3">Você consegue sentir? É aquela sensação de finalmente poder falar em voz alta: "estamos em casa". Sim, em dezembro de 2023, teremos a volta da CCXP física. Mas não será qualquer CCXP, vai ser a maior de todos os tempos. Prepare-se para visitar seus universos favoritos, explorar o Artists' Valley, se emocionar nos auditórios e encontrar aventuras épicas a cada passo pelos nossos corredores.</h3>
+            </div >
+                  <div class="ctdvid">
+                        <div class="ctdxp">
+                            <div >
+                                <h1 id="dia">00</h1>
+                            </div>
+                            <div>
+                                <h1 id="hora">00</h1>
+                               
+                            </div>
+                            <div>
+                                <h1 id="minuto">00</h1>
+                               
+                            </div>
+                            <div>
+                                <h1 id="segundo">00</h1>
+                              
+                            </div>
+                        </div>
+                        <div id="maiorh3" > 
+                            <h3> PARA A MAIOR CCXP DE TODOS OS TEMPOS</h3>
+                        </div>
+                             <div>
+                              <video id="vidaleq" src="Arlequina.mp4" width="700px" control autoplay loop muted></video> 
+                             </div>
+                     </div>
+                    
+                
+         </div>
+             
+           
+       </div>
+    </section>
+
+     </div>
+     <h3 id="corre">AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h3>
+   
+   <nav id="sec2">
+         <div><img src="quinta.svg"  width="150px"></div>
+         <div><img src="sexta.svg"  width="150px"></div>
+         <div> <img src="sabado esgotado.svg"   width="150px"></div>
+         <div> <img src="domingo.svg" width="150px"></div>
+
+         <button type="onclick" id="btcs" onmouseenter="mcima()" onmouseleave="mdeixa()">GARANTA O SEU!</button>
+            <script>
+                function mcima(){
+                    btcs.style.background = 'yellow'
+                }
+                function mdeixa(){
+                    btcs.style.background ='#514988'
+                }
+            </script>
+
+            <script>
+                const dia = document.getElementById('dia')
+                const hora = document.getElementById('hora')
+                const minuto = document.getElementById('minuto')
+                const segundo = document.getElementById('segundo')
+
+                const lancamento ="14 dec 2023"
+
+                function countDown(){
+                     const dataLanc = new Date(lancamento)
+                     const hoje = new Date()
+
+                     const segTotal = (dataLanc - hoje)/1000; 
+
+                     const finalDias = Math.floor(segTotal / 60 / 60 / 24);
+                     const finalHoras = Math.floor(segTotal / 60 / 60) % 24;
+                     const finalMinutos = Math.floor(segTotal / 60 ) % 60;
+                     const finalSegundos = Math.floor(segTotal) % 60;
+
+                     dia.innerHTML = finalDias
+                     hora.innerHTML = finalHoras
+                     minuto.innerHTML = finalMinutos
+                     segundo.innerHTML = finalSegundos
+                }
+
+                     countDown()
+                     setInterval(countDown, 1000);
+            </script>
+
+   </nav>
+</body>
+</html>
